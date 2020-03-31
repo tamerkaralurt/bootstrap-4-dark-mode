@@ -10,10 +10,10 @@ I was tired of looking for a proper Bootstrap 4 dark mode implementation. All of
 
     @import "~bootstrap-4-dark-mode/bootstrap.min.css";
 
-## Screenshot
-
-![Bootstrap 4 Dark Mode](https://i.imgur.com/zY5E9SJ.png)
-
 ## Preview
 
 https://kejojedi.com/bootstrap-4-dark-mode
+
+## Screenshot
+
+![Bootstrap 4 Dark Mode](https://i.imgur.com/zY5E9SJ.png)
