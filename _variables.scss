@@ -1,0 +1,87 @@
+// colors
+$primary: #007bff;
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+// common
+$body-bg: $gray-900;
+$body-color: $gray-100;
+$link-hover-color: lighten($primary, 15%);
+$border-color: $gray-700;
+$close-color: $gray-100;
+$close-text-shadow: none;
+
+// not so common
+$breadcrumb-bg: $gray-800;
+$progress-bg: $gray-800;
+$jumbotron-bg: $gray-800;
+$hr-border-color: $gray-700;
+
+// inputs
+$input-bg: darken($gray-900, 3%);
+$input-color: $gray-100;
+$input-border-color: $gray-700;
+$input-focus-border-color: $primary;
+$input-group-addon-bg: $gray-800;
+$input-disabled-bg: $gray-800;
+$custom-control-indicator-border-color: $gray-700;
+$custom-select-indicator-color: $gray-700;
+$custom-range-track-bg: $gray-800;
+$custom-range-thumb-active-bg: lighten($primary, 15%);
+
+// navs
+$nav-tabs-border-color: $gray-700;
+$nav-tabs-link-active-color: $gray-100;
+$nav-tabs-link-active-border-color: $gray-700 $gray-700 transparent;
+$nav-tabs-link-hover-border-color: $gray-800 $gray-800 transparent;
+
+// dropdowns
+$dropdown-bg: $gray-900;
+$dropdown-link-hover-bg: $gray-800;
+$dropdown-color: $gray-100;
+$dropdown-link-hover-color: $gray-100;
+$dropdown-link-color: $gray-100;
+$dropdown-border-color: $gray-700;
+$dropdown-divider-bg: $gray-700;
+
+// pagination
+$pagination-bg: $gray-900;
+$pagination-border-color: $gray-700;
+$pagination-hover-bg: $gray-800;
+$pagination-hover-border-color: $gray-700;
+$pagination-disabled-bg: $gray-800;
+$pagination-disabled-border-color: $gray-700;
+
+// list groups
+$list-group-bg: $gray-900;
+$list-group-border-color: $gray-700;
+$list-group-color: $gray-100;
+$list-group-hover-bg: $gray-800;
+$list-group-action-hover-color: $gray-100;
+
+// cards
+$card-bg: $gray-900;
+$card-border-color: $gray-700;
+
+// modals
+$modal-content-bg: $gray-900;
+$modal-content-border-color: $gray-700;
+
+// popovers
+$popover-bg: $gray-900;
+$popover-border-color: $gray-700;
+
+// toats
+$toast-background-color: $gray-900;
+$toast-border-color: $gray-700;
+$toast-header-background-color: $gray-900;
+$toast-header-border-color: $gray-700;

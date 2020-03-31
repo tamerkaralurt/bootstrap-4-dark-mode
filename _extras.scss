@@ -1,0 +1,52 @@
+// tables
+.table {
+    @each $color, $value in $theme-colors {
+        &-#{$color} {
+            &, > th, > td {
+                background-color: $value;
+                color: color-yiq($value);
+            }
+        }
+    }
+
+    &-hover {
+        @each $color, $value in $theme-colors {
+            .table-#{$color}:hover {
+                &, > th, > td {
+                    background-color: darken($value, 5%);
+                }
+            }
+        }
+    }
+}
+
+// alerts
+.alert {
+    border: none;
+
+    @each $color, $value in $theme-colors {
+        &-#{$color} {
+            background-color: $value;
+
+            &, > a, > .alert-link, > .close {
+                color: color-yiq($value);
+            }
+        }
+    }
+}
+
+// cards
+.card {
+    @each $color, $value in $theme-colors {
+        .card-#{$color} {
+            & {
+                color: color-yiq($value);
+            }
+        }
+    }
+}
+
+// popovers
+.popover-header {
+    border-color: $gray-700;
+}

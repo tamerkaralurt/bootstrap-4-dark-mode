@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-4-dark-mode",
+  "version": "1.0.0",
+  "description": "A proper Bootstrap 4 dark mode implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kejojedi/bootstrap-4-dark-mode.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kejojedi/bootstrap-4-dark-mode/issues"
+  },
+  "homepage": "https://github.com/kejojedi/bootstrap-4-dark-mode#readme"
+}
